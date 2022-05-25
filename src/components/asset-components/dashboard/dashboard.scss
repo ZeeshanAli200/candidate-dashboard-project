@@ -1,0 +1,390 @@
+.analyticWrapper {
+  width: 80%;
+  margin: 0 auto;
+  .assetMusicWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .titleinfoWrapper {
+      width: 35%;
+      position: relative;
+      padding: 100px 20px 0 20px;
+      // margin: 0 auto;
+
+      .titleIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 25%;
+        top: 20px;
+
+        background-color: #004b9c;
+        border-radius: 10px;
+        width: 50%;
+        text-align: center;
+        // margin: 0 auto;
+        .musicIconWrapper {
+          padding: 10px;
+          margin: 0 auto;
+        }
+      }
+      .beginsIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 25%;
+        top: 20px;
+
+        background-color: #c1272d;
+        border-radius: 10px;
+        width: 50%;
+        .musicIconWrapper {
+          padding: 10px;
+          margin: 0 auto;
+        }
+      }
+      .endIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 25%;
+        top: 20px;
+
+        background-color: #202022;
+        border-radius: 10px;
+        width: 50%;
+
+        .musicIconWrapper {
+          padding: 10px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .assetInnerWrapper {
+      //   border: 1px solid #4d4d4f;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 50px 0 0 0;
+
+      .title {
+        font-weight: bold;
+        padding-top: 10px;
+      }
+      .assetinformation {
+        font-weight: 500;
+        // color: #6d6d6f;
+        text-align: center;
+        padding: 10px;
+        height: 70px;
+      }
+      .assetInfoBtnWrapper {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px;
+        justify-content: space-between;
+        button {
+          // border-style: none;
+          border: 1px solid #27272a;
+          border-radius: 15px;
+          padding: 0 12px;
+          background-color: transparent;
+
+          color: #27272a;
+          font-weight: 500;
+          margin: 0 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.analyticDescripWrapper {
+  width: 90%;
+  margin: 0 auto;
+  .assetMusicWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .titleinfoWrapper {
+      width: 100%;
+      position: relative;
+      padding: 100px 20px 0 20px;
+      // margin: 0 auto;
+
+      .titleIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 22%;
+        top: 40px;
+
+        border-radius: 10px;
+        width: 55%;
+        text-align: center;
+        // margin: 0 auto;
+        .musicIconWrapper {
+          // padding: 50px 10px;
+          margin: 0 auto;
+          background-size: cover;
+          height: 112px;
+          background-repeat: no-repeat;
+          width: 100%;
+          border-radius: 11px;
+          opacity: 0.5;
+          background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+        }
+        h4 {
+          position: absolute;
+          color: black;
+          font-size: 17px;
+          font-weight: bold;
+          left: 14%;
+        }
+      }
+      .beginsIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 25%;
+        top: 20px;
+
+        background-color: #c1272d;
+        border-radius: 10px;
+        width: 50%;
+        .musicIconWrapper {
+          padding: 10px;
+          margin: 0 auto;
+        }
+      }
+      .endIcon {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        left: 25%;
+        top: 20px;
+
+        background-color: #202022;
+        border-radius: 10px;
+        width: 50%;
+
+        .musicIconWrapper {
+          padding: 10px;
+          margin: 0 auto;
+        }
+      }
+      .pastPollsWrapper {
+        .pastPollsLabel {
+          display: flex;
+          justify-content: center;
+          padding: 30px;
+          font-weight: 500;
+        }
+        .pastPollsPics {
+          display: flex;
+          // padding: 0 70px;
+          justify-content: space-between;
+
+          .pastPollsPic {
+            width: 30%;
+            height: 150px;
+            position: relative;
+            .pastPollsPicsWrapper {
+              width: 100%;
+              height: 100%;
+              border: 1px solid #6666;
+              border-radius: 10px;
+              opacity: 0.5;
+              margin: 0 auto;
+              justify-content: space-between;
+
+              background-repeat: no-repeat;
+              // width: 100%;
+
+              background-image: url("https://www.brightview.com/sites/default/files/styles/optimized/public/2017-12/Education-Landscape-Services_1.jpg?itok=lFAMTuYV");
+            }
+            span {
+              position: absolute;
+              display: inline-block;
+              top: 62px;
+              left: 24%;
+              font-weight: 700;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+    .assetInnerWrapper {
+      //   border: 1px solid #4d4d4f;
+      border-radius: 11px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 100%;
+      display: flex;
+      //   align-items: center;
+      flex-direction: column;
+      padding: 100px 0 0 0;
+
+      .assetDescInnerWrapper {
+        padding: 10px 100px;
+        display: flex;
+
+        .assetvoters {
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+          div {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            .voterLabel {
+              font-weight: 500;
+              padding: 0px 10px;
+            }
+            .voterValue {
+              border-bottom: 1px solid #ebebeb;
+              padding: 2px 5px;
+              margin: 10px 20px;
+            }
+            .privateBtn {
+              border-style: none;
+              display: flex;
+              margin: 0px 20px;
+              span {
+                padding: 0 2px;
+              }
+              align-items: center;
+              background-color: transparent;
+              border: 2px solid #27272a;
+              color: #27272a;
+              font-weight: 400;
+              font-size: 15px;
+              border-radius: 12px;
+              padding: 1px 20px;
+            }
+          }
+        }
+
+        .assetRestrictDescrip {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0 0px;
+
+          div {
+            display: flex;
+
+            margin: 10px 0;
+            span {
+              font-weight: 500;
+              margin: 10px 0px;
+            }
+            p {
+              padding-bottom: 5px;
+              border-bottom: 1px solid #ebebeb;
+            }
+          }
+        }
+      }
+      .otpToggle {
+        display: flex;
+        padding: 10px 100px;
+        align-items: center;
+        .otpToggleWrapper {
+          display: flex;
+          .label {
+            padding: 5px 30px;
+            span {
+              font-weight: 500;
+            }
+          }
+          .switch {
+            padding: 5px 5px;
+          }
+        }
+        .otpGeoToggleWrapper {
+          display: flex;
+          align-items: center;
+          margin: 0 60px;
+          .label {
+            padding: 5px 30px;
+            span {
+              font-weight: 500;
+            }
+          }
+          .switch {
+            padding: 5px 5px;
+          }
+        }
+
+        // .assetvoters {
+        //   display: flex;
+        //   flex-direction: column;
+        //   width: 50%;
+        //   div {
+        //     display: flex;
+        //     align-items: center;
+        //     margin: 10px 0;
+        //     .voterLabel {
+        //       font-weight: 500;
+        //       padding: 0px 30px;
+        //     }
+        //     .voterValue {
+        //       border-bottom: 1px solid #ebebeb;
+        //       padding: 2px 10px;
+        //       margin: 10px 20px;
+        //     }
+        //     .privateBtn {
+        //       border-style: none;
+        //       display: flex;
+        //       margin: 0px 20px;
+        //       span {
+        //         padding: 0 2px;
+        //       }
+        //       align-items: center;
+        //       background-color: transparent;
+        //       border: 2px solid #27272a;
+        //       color: #27272a;
+        //       font-weight: 400;
+        //       font-size: 15px;
+        //       border-radius: 12px;
+        //       padding: 1px 20px;
+        //     }
+        //   }
+        // }
+      }
+      .divider {
+        height: 1px;
+        width: 80%;
+        margin: 0 auto;
+        background-color: #e6e6e6;
+        // margin: 10px;
+        padding: 0px 100px;
+      }
+      .officerWrapper {
+        display: flex;
+        padding: 10px 100px 30px 100px;
+        .officerLabels {
+          display: flex;
+          padding: 10px 30px;
+          .officerLabelsSpan {
+            font-weight: 500;
+          }
+          .officerName {
+            margin-left: 50px;
+            padding-right: 10px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: 500;
+            border: 2px solid #27272a;
+          }
+        }
+      }
+    }
+  }
+}

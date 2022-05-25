@@ -1,0 +1,173 @@
+.assetWrapper1 {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #6666;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  h3 {
+    padding: 10px 30px;
+    color: #344767;
+  }
+  .assetWrapperFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    cursor: pointer;
+    span {
+      font-weight: bold;
+    }
+  }
+  .assetInnerWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    .buttonWrapper {
+      display: flex;
+      padding: 20px 0;
+      justify-content: space-between;
+      align-items: center;
+      .newAssetWrapper {
+        display: flex;
+        width: 20%;
+        button {
+          border-style: none;
+          background-color: #27272a;
+          color: white;
+          font-weight: 400;
+          border: 1px solid #27272a;
+          font-size: 12px;
+          border-radius: 7px;
+          padding: 5px 20px;
+          transition: all 0.3s ease-in-out;
+        }
+        &:hover {
+          button {
+            background-color: white;
+            border: 1px solid #27272a;
+            color: #27272a;
+          }
+        }
+      }
+      .otherAssetWrapper {
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        .menuList {
+          border-bottom: none;
+          width: 100%;
+          .menuItem {
+            border-style: none;
+            background-color: transparent;
+            color: #27272a;
+            font-weight: 500;
+            margin: 0 0px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+    .assetSearchWrapper {
+      display: flex;
+      .searchWrapper {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        button {
+          border-style: none;
+          display: flex;
+          span {
+            padding: 0 2px;
+          }
+          align-items: center;
+          background-color: transparent;
+          border: 2px solid #27272a;
+          color: #27272a;
+          font-weight: 700;
+          font-size: 12px;
+          border-radius: 12px;
+          padding: 5px 20px;
+        }
+      }
+      .searchInputWrapper {
+        border-bottom: 1px solid #f0f2f5;
+        display: flex;
+        margin: 0 20px;
+        align-items: center;
+        justify-content: flex-end;
+        input {
+          border-style: none;
+          outline: none;
+        }
+        // : input {
+        //   border-style: none;
+        // }
+      }
+    }
+    .assetMusicWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .titleinfoWrapper {
+        width: 35%;
+        position: relative;
+        padding: 100px 20px 0 20px;
+        // margin: 0 auto;
+        .titleIcon {
+          position: absolute;
+          display: flex;
+          align-items: center;
+          left: 15%;
+          top: 20px;
+
+          background-color: #202022;
+          border-radius: 10px;
+          width: 70%;
+          .musicIconWrapper {
+            padding: 10px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .assetInnerWrapper {
+        border: 1px solid #4d4d4f;
+        border-radius: 11px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+
+        .title {
+          font-weight: bold;
+          padding-top: 10px;
+        }
+        .assetinformation {
+          font-weight: 500;
+          color: #6d6d6f;
+          padding: 10px;
+        }
+        .assetInfoBtnWrapper {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding: 20px 20px;
+          justify-content: space-between;
+          button {
+            // border-style: none;
+            border: 1px solid #27272a;
+            border-radius: 15px;
+            padding: 0 12px;
+            background-color: transparent;
+
+            color: #27272a;
+            font-weight: 500;
+            margin: 0 10px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
